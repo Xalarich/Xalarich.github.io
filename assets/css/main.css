@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+body {
+  @apply bg-richBlack;
+  @apply text-richWhite;
+}
+
+body::-webkit-scrollbar {
+      width: 0;
+  }
