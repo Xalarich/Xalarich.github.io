@@ -95,7 +95,7 @@
         </a>
       </li>
       <li class="cursor-pointer flex items-center justify-center pb-4 sm:pb-0">
-        <a href="../public/resume-boudik.pdf" target="_blank">
+        <a href="/resume.pdf" download="resume-Boudík.pdf" target="_blank">
           <svg
             fill="#CCCCCC"
             version="1.1"

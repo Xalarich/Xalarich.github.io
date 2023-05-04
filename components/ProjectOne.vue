@@ -27,21 +27,22 @@
           možností přihlášení.
         </p>
         <div class="w-full flex flex-row justify-evenly">
-          <button
-            class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
-          >
-            <img src="../public/eye.svg" alt="eye picture" class="h-6" /><a
-              href="https://github.com/Xalarich/Nuxt3WebShop"
-              target="_blank"
-              >KÓD</a
+          <a href="https://github.com/Xalarich/Nuxt3WebShop" target="_blank">
+            <button
+              class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
             >
-          </button>
-          <button
-            class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
-          >
-            <img src="../public/code.svg" alt="code picture" class="h-5" />
-            <a href="https://xalarichshop.netlify.app/" target="_blank">DEMO</a>
-          </button>
+              <img src="../public/eye.svg" alt="eye picture" class="h-6" />
+              <span> KÓD </span>
+            </button>
+          </a>
+          <a href="https://xalarichshop.netlify.app/" target="_blank">
+            <button
+              class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
+            >
+              <img src="../public/code.svg" alt="code picture" class="h-5" />
+              <span> DEMO </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

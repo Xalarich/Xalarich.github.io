@@ -31,21 +31,25 @@
           další zdi.
         </p>
         <div class="w-full flex flex-row justify-evenly">
-          <button
-            class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
+          <a
+            href="https://github.com/Xalarich/SimplePurePacManGame"
+            target="_blank"
           >
-            <img src="../public/eye.svg" alt="eye picture" class="h-6" /><a
-              href="https://github.com/Xalarich/SimplePurePacManGame"
-              target="_blank"
-              >KÓD</a
+            <button
+              class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
             >
-          </button>
-          <button
-            class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
-          >
-            <img src="../public/code.svg" alt="code picture" class="h-5" />
-            <a href="https://xalapacman.netlify.app/" target="_blank">DEMO</a>
-          </button>
+              <img src="../public/eye.svg" alt="eye picture" class="h-6" />
+              <span> KÓD </span>
+            </button>
+          </a>
+          <a href="https://xalapacman.netlify.app/" target="_blank">
+            <button
+              class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
+            >
+              <img src="../public/code.svg" alt="code picture" class="h-5" />
+              <span> DEMO </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
