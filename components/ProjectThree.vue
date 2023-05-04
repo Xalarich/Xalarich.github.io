@@ -5,16 +5,12 @@
     <div
       class="sm:w-3/5 md:w-1/2 lg:w-4/5 xl:w-2/3 2xl:w-1/2 border-2 border-black flex flex-col-reverse lg:flex-row bg-richGray text-center overflow-y-auto"
     >
-      <img
-        class="p-22 sm:p-0"
-        src="../public/pacman.png"
-        alt="pacman game picture"
-      />
+      <img class="p-22 sm:p-0" src="/pacman.png" alt="pacman game picture" />
       <div class="flex flex-col items-center gap-1 lg:gap-8 p-4">
         <div class="w-full grid grid-rows-1 grid-flow-col">
           <h2 class="text-white text-xl text-right">PACMAN HRA</h2>
           <img
-            src="../public/exit.svg"
+            src="/exit.svg"
             alt="exit button"
             class="h-4 grid justify-self-end cursor-pointer"
             @click="closePopup"
@@ -38,7 +34,7 @@
             <button
               class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
             >
-              <img src="../public/eye.svg" alt="eye picture" class="h-6" />
+              <img src="/eye.svg" alt="eye picture" class="h-6" />
               <span> KÓD </span>
             </button>
           </a>
@@ -46,7 +42,7 @@
             <button
               class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
             >
-              <img src="../public/code.svg" alt="code picture" class="h-5" />
+              <img src="/code.svg" alt="code picture" class="h-5" />
               <span> DEMO </span>
             </button>
           </a>

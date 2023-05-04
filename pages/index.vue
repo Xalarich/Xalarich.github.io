@@ -29,9 +29,13 @@
     </nav>
     <Navbar
       v-if="isNavVisible"
+      @click="isNavVisible = false"
       class="z-10 fixed top-10 bg-richBlack sm:hidden"
     />
-    <section class="pt-14 min-h-screen flex items-center justify-center">
+    <section
+      class="pt-14 min-h-screen flex items-center justify-center"
+      @click="isNavVisible = false"
+    >
       <div class="flex flex-col gap-4">
         <h1
           class="text-3xl md:text-6xl font-bold text-center select-none px-10 pb-10"
@@ -45,7 +49,11 @@
         <Navbar class="hidden sm:flex" />
       </div>
     </section>
-    <section id="page2" class="min-h-screen flex items-center justify-center">
+    <section
+      id="page2"
+      class="min-h-screen flex items-center justify-center"
+      @click="isNavVisible = false"
+    >
       <div class="flex flex-col gap-8">
         <h2 class="md:mb-20 text-2xl font-bold select-none text-center">
           O MNĚ A MÉ PERSPEKTIVĚ NA ŽÍVOT A PRÁCI
@@ -113,7 +121,11 @@
         </div>
       </div>
     </section>
-    <section class="min-h-screen pb-10" id="page3">
+    <section
+      class="min-h-screen pb-10"
+      id="page3"
+      @click="isNavVisible = false"
+    >
       <div class="flex flex-col items-center pt-14">
         <h2 class="my-20 text-2xl font-bold select-none">PORTFOLIO</h2>
         <div class="flex flex-col items-center gap-10">
@@ -121,11 +133,7 @@
             class="project px-2 xl:w-1/2 lg:w-3/5 w-5/6 flex justify-center"
             @click="isOneVisible = !isOneVisible"
           >
-            <img
-              class="w-max"
-              src="../public/webshop.png"
-              alt="webshop picture"
-            />
+            <img class="w-max" src="/webshop.png" alt="webshop picture" />
             <button
               class="hover:drop-shadow-myShadow viewProject w-32 flex justify-center button rounded-full bg-white absolute flex self-center mb-2 invisible"
             >
@@ -136,7 +144,7 @@
             class="project px-2 xl:w-1/2 lg:w-3/5 w-5/6 flex justify-center"
             @click="isTwoVisible = !isTwoVisible"
           >
-            <img class="w-max" src="../public/quiz.png" alt="quiz picture" />
+            <img class="w-max" src="/quiz.png" alt="quiz picture" />
             <button
               class="hover:drop-shadow-myShadow viewProject w-32 flex justify-center button rounded-full bg-white absolute flex self-center mb-2 invisible"
             >
@@ -147,11 +155,7 @@
             class="project px-2 xl:w-1/2 lg:w-3/5 w-5/6 flex justify-center"
             @click="isThreeVisible = !isThreeVisible"
           >
-            <img
-              class="w-max"
-              src="../public/pacman.png"
-              alt="pacman app picture"
-            />
+            <img class="w-max" src="/pacman.png" alt="pacman app picture" />
             <button
               class="hover:drop-shadow-myShadow viewProject w-32 flex justify-center button rounded-full bg-white absolute flex self-center mb-2 invisible"
             >

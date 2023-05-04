@@ -5,12 +5,12 @@
     <div
       class="2xl:h-1/2 2xl:w-4/5 xl:w-4/6 sm:w-5/6 border-2 p-1 text-center border-black flex flex-col-reverse 2xl:flex-row justify-around bg-richGray"
     >
-      <img src="../public/webshop.png" alt="webshop picture" />
+      <img src="/webshop.png" alt="webshop picture" />
       <div class="flex flex-col items-center 2xl:gap-4 p-2">
         <div class="w-full grid grid-rows-1 grid-flow-col">
           <h2 class="text-right text-white text-xl">WEBSHOP STRÁNKA</h2>
           <img
-            src="../public/exit.svg"
+            src="/exit.svg"
             alt="exit button"
             class="h-4 grid justify-self-end cursor-pointer"
             @click="closePopup"
@@ -31,7 +31,7 @@
             <button
               class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
             >
-              <img src="../public/eye.svg" alt="eye picture" class="h-6" />
+              <img src="/eye.svg" alt="eye picture" class="h-6" />
               <span> KÓD </span>
             </button>
           </a>
@@ -39,7 +39,7 @@
             <button
               class="border-2 rounded-md border-black flex flex-row gap-2 items-center p-1 px-2 bg-richWhite hover:bg-white text-black"
             >
-              <img src="../public/code.svg" alt="code picture" class="h-5" />
+              <img src="/code.svg" alt="code picture" class="h-5" />
               <span> DEMO </span>
             </button>
           </a>
