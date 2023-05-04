@@ -1,5 +1,8 @@
 <template>
-  <div id="container" class="w-full relative flex flex-col justify-center">
+  <div
+    id="container"
+    class="w-full relative flex flex-col justify-center overflow-x-hidden"
+  >
     <nav
       v-if="!isTwoVisible && !isOneVisible && !isThreeVisible"
       class="w-full top-0 sm:hidden fixed bg-richBlack flex justify-between items-center z-10"
@@ -28,7 +31,7 @@
       v-if="isNavVisible"
       class="z-10 fixed top-10 bg-richBlack sm:hidden"
     />
-    <section class="pt-14 h-screen flex items-center justify-center">
+    <section class="pt-14 min-h-screen flex items-center justify-center">
       <div class="flex flex-col gap-4">
         <h1
           class="text-3xl md:text-6xl font-bold text-center select-none px-10 pb-10"
@@ -42,10 +45,7 @@
         <Navbar class="hidden sm:flex" />
       </div>
     </section>
-    <section
-      id="page2"
-      class="min-h-screen md:h-screen flex items-center justify-center"
-    >
+    <section id="page2" class="min-h-screen flex items-center justify-center">
       <div class="flex flex-col gap-8">
         <h2 class="md:mb-20 text-2xl font-bold select-none text-center">
           O MNĚ A MÉ PERSPEKTIVĚ NA ŽÍVOT A PRÁCI

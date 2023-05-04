@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex flex-col items-center md:flex-row md:justify-around gap-10 w-full text-2xl md:text-3xl text-center pt-2"
+    class="max-w-full flex flex-col items-center md:flex-row md:justify-around gap-10 w-full text-2xl md:text-3xl text-center pt-4"
   >
     <ul class="flex flex-col md:flex-row gap-10 md:text-left">
       <li class="cursor-pointer list-none">
@@ -94,7 +94,7 @@
           </svg>
         </a>
       </li>
-      <li class="cursor-pointer flex items-center justify-center pb-4">
+      <li class="cursor-pointer flex items-center justify-center pb-4 sm:pb-0">
         <a href="../public/resume-boudik.pdf" target="_blank">
           <svg
             fill="#CCCCCC"
