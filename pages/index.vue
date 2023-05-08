@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>Xalarich's portfolio</Title>
+  </Head>
   <div
     id="container"
     class="w-full relative flex flex-col justify-center overflow-x-hidden"
