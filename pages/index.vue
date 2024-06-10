@@ -1,6 +1,7 @@
 <template>
   <Head>
     <Title>Xalarich's portfolio</Title>
+    <meta name="google-site-verification" content="DHnaDTlXNuePm5kjbVE5BdLr495b0vdRGIJrgN9g6Cs" />
   </Head>
   <div
     id="container"
